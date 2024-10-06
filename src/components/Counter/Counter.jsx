@@ -5,7 +5,11 @@ const Counter = () => {
 const [count, setCount] = useState(0);
 
 const increaseNo = () => {
-    setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(prevCounter=>prevCounter+1)
+    // setCount(prevCounter=>prevCounter+1)
+    // setCount(prevCounter=>prevCounter+1) // increase 3 value at a single time
+    
   };
 
   const decreaseNo = () => {
